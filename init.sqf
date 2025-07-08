@@ -1,4 +1,3 @@
-// ARMA3.RU Mission Template
 enableSaving [false, false]; // Не надо ничего сейвить, мы ж не в сингл играем
 0 = execVM "add_med.sqf"; // Дадим немножко медицины и беруши
 setTerrainGrid 3.125; // Красивая отрисовка земли вдали
@@ -14,13 +13,4 @@ if (isServer) then
 	{
 		_x setVariable ["controledBy", west, true];
 	} forEach [Flag_1, Flag_2]; 
-};
-
-if (!isDedicated) then
-{
-	[] spawn {
-	waitUntil {sleep 10; a3a_var_started};
- [ 
-] spawn BIS_fnc_typeText;
-};
 };

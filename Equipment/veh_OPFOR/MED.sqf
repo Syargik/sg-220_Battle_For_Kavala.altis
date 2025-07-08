@@ -14,7 +14,7 @@ _veh addItemcargoGlobal ['ACE_personalAidKit', 20];
 _veh addItemcargoGlobal ['ACE_surgicalKit', 10];
 _veh additemcargoGlobal ['ACE_suture', 30];
 
-_veh additemcargoGlobal ["rhs_mag_30Rnd_556x45_M855A1_Stanag", 10];
-_veh additemcargoGlobal ["rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", 5];
-_veh additemcargoGlobal ["rhs_mag_m67", 5];
-_veh additemcargoGlobal ["rhs_mag_an_m8hc", 5];
+_veh additemcargoGlobal ["nmg_30Rnd_545x39_7N10_AK12", 10];
+_veh additemcargoGlobal ["nmg_30Rnd_545x39_7T3M_AK12", 5];
+_veh additemcargoGlobal ["rhs_mag_rgd5", 5];
+_veh additemcargoGlobal ["rhs_mag_rdg2_white", 5];
