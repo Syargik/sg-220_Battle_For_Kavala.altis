@@ -25,8 +25,6 @@ _unit addBackpack "rhsusf_assault_eagleaiii_coy";
 for '_i' from 1 to 1 do { _unit addItemToBackpack 'MICH2000_Coverall_USMC_Preset_3_1';};
 _unit addHeadgear "rhsusf_cvc_green_alt_helmet";
 
-_unit addGoggles "rhsusf_oakley_goggles_blk";
-
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemWatch";

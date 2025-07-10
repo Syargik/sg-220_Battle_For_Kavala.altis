@@ -9,7 +9,7 @@ _unit addBackpack "B_Carryall_Base";
 
 _unit addItem "rhs_mag_100Rnd_556x45_M855A1_cmag";
 _unit addWeapon "rhs_weap_m27iar_grip";
-_unit addPrimaryWeaponItem "rhsusf_acc_su230";
+_unit addPrimaryWeaponItem "rhsusf_acc_eotech_552";
 _unit addPrimaryWeaponItem "rhsusf_acc_harris_bipod";
 
 removeBackpack _unit;
@@ -29,8 +29,6 @@ for '_i' from 1 to 3 do { _unit addItemToBackpack 'rhs_mag_100Rnd_556x45_M855A1_
 _unit addItemToBackpack 'rhs_mag_100Rnd_556x45_M855A1_cmag_mixed';
 
 _unit addHeadgear _headgear;
-
-_unit addGoggles "rhsusf_oakley_goggles_blk";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";

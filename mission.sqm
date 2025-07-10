@@ -16,18 +16,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=106;
+		nextID=116;
 	};
 	class Camera
 	{
-		pos[]={3729.498,45.409904,13024.953};
-		dir[]={0.61479157,-0.61040586,0.49954006};
-		up[]={0.47375059,0.79208696,0.3849411};
-		aside[]={0.63064402,-5.713664e-07,-0.77613795};
+		pos[]={14541.613,39.492435,16813.063};
+		dir[]={-0.82432461,-0.55717814,0.10025381};
+		up[]={-0.55310565,0.83039296,0.067268848};
+		aside[]={0.12073124,9.0250978e-08,0.9926877};
 	};
 };
 binarizationWanted=0;
-sourceName="sg@215_Battle_For_Kavala";
+sourceName="sg@220_Battle_For_Kavala";
 addons[]=
 {
 	"a3a_modules",
@@ -372,7 +372,7 @@ class CustomAttributes
 		};
 		nAttributes=2;
 	};
-	class Category1
+	class Category2
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -7845,7 +7845,7 @@ class Mission
 					{
 						lock="UNLOCKED";
 						init="[this,""OPFOR"",""HELI""] call SerP_vehprocessor;" \n "[this,""HELICOPTER"", ""all""] call compile preprocessFileLineNumbers ""bn_crew_control.sqf"";";
-						textures="Camo1";
+						textures="standard";
 						pylons="rhs_mag_b8v20a_s8kom;rhs_mag_b8v20a_s8kom;rhs_mag_b8v20a_s8df;rhs_mag_b8v20a_s8df;rhs_mag_9M120M_Mi24_2x[0];rhs_mag_9M120M_Mi24_2x[0];;";
 					};
 					id=26064;
@@ -7878,7 +7878,7 @@ class Mission
 														class data
 														{
 															singleType="STRING";
-															value="Camo1";
+															value="standard";
 														};
 													};
 													class Item1
@@ -19988,8 +19988,8 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="[this,""BLUEFOR"",""TOW_G""] call SerP_unitprocessor;";
-						description="1WP1CAAT TOW Gunner";
+						init="[this,""BLUEFOR"",""AMG""] call SerP_unitprocessor;";
+						description="1WP1CAAT Assistant Machine Gunner";
 						isPlayable=1;
 						class Inventory
 						{
@@ -20041,8 +20041,8 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="[this,""BLUEFOR"",""TOW_AG""] call SerP_unitprocessor;";
-						description="1WP1CAAT TOW Asst.Gunner";
+						init="[this,""BLUEFOR"",""RF""] call SerP_unitprocessor;";
+						description="1WP1CAAT Ammo bearer";
 						isPlayable=1;
 						class Inventory
 						{
@@ -20050,7 +20050,7 @@ class Mission
 					};
 					id=26926;
 					type="mkk_Survivor_B";
-					atlOffset=0.060269356;
+					atlOffset=0.060270309;
 					class CustomAttributes
 					{
 						class Attribute0

@@ -36,8 +36,6 @@ _unit addItemToBackpack 'rhs_mag_maaws_HE';
 
 _unit addHeadgear _headgear;
 
-_unit addGoggles "rhsusf_oakley_goggles_blk";
-
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemWatch";

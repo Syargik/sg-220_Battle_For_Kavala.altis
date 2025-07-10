@@ -31,8 +31,6 @@ for '_i' from 1 to 2 do { _unit addItemToVest 'rhs_mag_an_m8hc';};
 _unit addBackpack "tf_rt1523g_big_mptwd_RETRO";
 _unit addHeadgear _headgear;
 
-_unit addGoggles "rhsusf_oakley_goggles_blk";
-
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemWatch";

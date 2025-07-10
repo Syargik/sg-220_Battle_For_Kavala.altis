@@ -28,8 +28,6 @@ for '_i' from 1 to 4 do { _unit addItemToBackpack 'rhsusf_100Rnd_762x51_m80a1epr
 
 _unit addHeadgear _headgear;
 
-_unit addGoggles "rhsusf_oakley_goggles_blk";
-
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemWatch";
