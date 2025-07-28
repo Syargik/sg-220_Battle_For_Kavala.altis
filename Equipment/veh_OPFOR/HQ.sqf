@@ -16,3 +16,5 @@ _veh additemcargoGlobal ["rhs_mag_rgd5", 10];
 _veh additemcargoGlobal ["rhs_mag_rdg2_white", 10];
 _veh addItemcargoGlobal ['vtn_pg7vl', 5];
 _veh addItemcargoGlobal ['vtn_og7v', 5];
+
+_veh addBackpackCargoGlobal ['tf_mr3000_emr_RETRO', 2];

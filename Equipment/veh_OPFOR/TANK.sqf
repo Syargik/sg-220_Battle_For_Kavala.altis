@@ -21,3 +21,5 @@ _veh addBackpackCargoGlobal ['rhs_rk_sht_30_emr', 3];
 _veh addBackpackCargoGlobal ['tf_mr3000_emr_RETRO', 1];
 
 _veh addItemcargoGlobal ['rhs_6b47', 3];
+
+_veh addItemCargoGlobal ["ace_mag_127x108mm_50", 4];

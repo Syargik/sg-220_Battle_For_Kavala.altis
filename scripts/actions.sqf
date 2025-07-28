@@ -6,7 +6,7 @@ if (playerside == east) then {
 			"Поднять флаг",
 			"\a3\ui_f\data\IGUI\Cfg\holdactions\holdAction_takeOff2_ca.paa",
 			"\a3\ui_f\data\IGUI\Cfg\holdactions\holdAction_takeOff2_ca.paa",
-			"((_this distance _target) < 5) && ((_target getVariable 'controledBy') != east)",
+			"((_this distance _target) < 5) && ((_target getVariable 'controledBy') != east) && (mkk_platform_missionTime > 1500)",
 			"(_this distance _target) < 5",
 			{[_target, 0] call BIS_fnc_animateFlag},
 			{},
